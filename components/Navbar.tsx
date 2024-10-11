@@ -26,7 +26,7 @@ const Navbar = () => {
 export default Navbar;
 
 const sliderBox = (list: React.JSX.Element) => {
-  const [slider, setSlider] = useState<boolean>(true);
+  const [slider, setSlider] = useState<boolean>(false);
   return (
     <>
       <div
